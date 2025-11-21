@@ -16,9 +16,14 @@ An interactive browser-based particle animation that reacts to hand motion detec
 
 🔧 Simple, lightweight, and easy to integrate
 
+Screenshots:
+<img width="1361" height="607" alt="image" src="https://github.com/user-attachments/assets/a304581f-fdd8-4d8d-a9da-b13bbfdb2911" />
+<img width="1362" height="594" alt="image" src="https://github.com/user-attachments/assets/78ef0e99-d223-411a-85c8-fb893b113acc" />
+<img width="1356" height="612" alt="image" src="https://github.com/user-attachments/assets/aa962591-4432-4af6-bb53-b608c3752e45" />
+
 🧑‍💻 How to Use
 
-Open webkaizen RED.html in a Chromium-based browser (Chrome / Edge / Brave).
+Open pARTICLE.html in a Chromium-based browser (Chrome / Edge / Brave).
 
 Grant webcam permission when prompted.
 

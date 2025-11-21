@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Hand Particle | webkaizen</title>
+<title>Hand Tracking Particle Effect </title>
 <style>
   :root { --bg:#000; --ui-bg: rgba(255,255,255,0.06); }
   html,body{height:100%;margin:0;background:var(--bg);overflow:hidden;font-family:Inter,system-ui,Arial;}
@@ -28,7 +28,7 @@
 
 <div id="ui">
   <button id="toggleHand">Enable Hand Control</button>
-  <div class="hint" id="hintText">webkaizen Active</div>
+  <div class="hint" id="hintText">make fist </div>
 </div>
 
 <div id="camWrap">
@@ -338,7 +338,7 @@
         height: 240
       });
       await camera.start();
-      hintText.textContent = 'Hand control active — move your hand. with webkaizen';
+      hintText.textContent = 'Hand control active — move your hand. to move the particle';
     } catch(e){
       console.error('camera error', e);
       hintText.textContent = 'Camera unavailable — using mouse fallback';
